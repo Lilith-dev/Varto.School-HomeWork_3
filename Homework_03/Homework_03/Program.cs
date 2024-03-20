@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Text;
+
+namespace Homework_03
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+        }
+    }
+}
